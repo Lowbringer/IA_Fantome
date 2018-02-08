@@ -13,12 +13,14 @@ class Character {
 
 private:
     CharacterType type;
-    Case room;
+    Case *room;
 
 public:
+    Character(CharacterType type);
+    ~Character();
     CharacterType getCharacterType();
-    Case getRoom();
-
+    Case *getRoom();
+    void setRoom(Case *room);
 };
 
 
