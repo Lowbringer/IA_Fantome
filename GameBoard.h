@@ -12,13 +12,13 @@
 class GameBoard {
 
 private:
-    std::list<Case> board;
+    std::list<Case> *board;
 
 public:
     GameBoard();
     ~GameBoard();
     Case getCase(int caseNbr);
-    std::list<Case> getBoard();
+    std::list<Case> *getBoard();
 
 };
 

@@ -13,12 +13,13 @@ class Case {
 
 private:
     int caseNbr;
-    std::list<Character> charactersInRoom;
+    std::list<Character> *charactersInRoom;
 
 public:
-    Case();
+    Case(int caseNbr);
     ~Case();
-    std::list<Character> getCharactersInRoom();
+    std::list<Character> *getCharactersInRoom();
+    int getCaseNbr();
 };
 
 
