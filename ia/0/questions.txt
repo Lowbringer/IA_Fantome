@@ -1,0 +1,1 @@
+Tuiles disponibles : [blanc-4-suspect, rose-7-suspect, bleu-5-suspect] choisir entre 0 et 2
